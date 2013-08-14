@@ -1,0 +1,15 @@
+In graph theory, an "edge" is defined as the connection between two vertices. 
+Your goal is to sort a given list of edges in the correct connection-order: 
+to make your job even easier, given edges will always form one big long line
+Lower index integers should be on the left / top of the sorted list, while 
+larger index integers should be on the right / bottom of the sorted list. 
+All edges are assigned a unique letter to help keep track of ordering.
+
+On standard input, you will first be given an integer, which is the number 
+of edges you will then be given. Each given edge is defined by a letter and 
+two integers: the letter will always be unique and represents the edge. The 
+integers are the actual edge's vertices, and thus may be duplicate (if a 
+vertex is shared between two edges).
+
+Simply list the sorted edges from the left-most ordered edge to the right-most 
+ordered edge.
